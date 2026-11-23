@@ -1,0 +1,91 @@
+{
+  "name": "clonervy",
+  "like": "neutral",
+  "mode": "both",
+  "settings": [
+    {
+      "thing": "--color-accent",
+      "value": "#0c2340",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-text-accent",
+      "value": "#0c2340",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "--color-background-body",
+      "value": "#ffffff",
+      "source": "token",
+      "mode": "light"
+    },
+    {
+      "thing": "border-radius",
+      "value": "12px",
+      "source": "property",
+      "on": "card"
+    },
+    {
+      "thing": "font",
+      "value": "system",
+      "source": "dial"
+    },
+    {
+      "thing": "--color-accent",
+      "value": "#d4af37",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-on-accent",
+      "value": "#071629",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-text-accent",
+      "value": "#d4af37",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-body",
+      "value": "#071629",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-surface",
+      "value": "#0c2340",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-background-card",
+      "value": "#102a4c",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-text-secondary",
+      "value": "#cbd5e1",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--focus-outline-color",
+      "value": "#f3e5ab",
+      "source": "token",
+      "mode": "dark"
+    },
+    {
+      "thing": "--color-on-accent",
+      "value": "#ffffff",
+      "source": "token",
+      "mode": "light"
+    }
+  ],
+  "lifted": []
+}
