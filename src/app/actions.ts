@@ -46,9 +46,10 @@ export async function sendEnquiry(input: EnquiryInput): Promise<EnquiryResult> {
   // Silently accept bot submissions without sending anything.
   if (data.website) return {ok: true};
 
-  const apiKey = process.env.RESEND_API_KEY;
+  // Accept the conventional name, or `resend` as it was saved in the Vercel project.
+  const apiKey = process.env.RESEND_API_KEY ?? process.env.resend;
   if (!apiKey) {
-    console.error('[enquiry] RESEND_API_KEY is not set');
+    console.error('[enquiry] RESEND_API_KEY (or `resend`) is not set');
     return {ok: false, reason: 'not_configured'};
   }
 
