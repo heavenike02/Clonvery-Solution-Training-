@@ -4,7 +4,7 @@ export const site = {
   motto: 'Train • Prepare • Save Lives',
   description:
     'Clonervy Training Solutions — Based in Cavan, providing nationwide on-site healthcare, workplace safety, and PHECC approved first aid training across Ireland.',
-  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://clonervy-training.vercel.app',
+  url: process.env.NEXT_PUBLIC_SITE_URL ?? 'https://clonvery-solution-training.vercel.app',
   phone: {display: '087 133 2401', href: 'tel:+353871332401', e164: '+353871332401'},
   email: 'Clonervytrainingsolutions@outlook.com',
   location: 'Based in Cavan • Nationwide On-Site Training Across Ireland',
